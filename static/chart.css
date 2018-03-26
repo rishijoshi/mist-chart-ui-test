@@ -1,0 +1,201 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:100%;
+}
+.container .title{
+    text-align: center;
+    padding: 5px;
+    background: #eee;
+    color:deepskyblue;
+}
+
+.chart-container {
+    background: white;
+    width: 90%;
+   /*  height: 280px; */
+    border: 1px solid #f1f1f1;
+    padding: 25px;
+    margin: 2% auto;
+    clear: both;
+    margin-top: 0px;
+}
+.info-container{
+  box-sizing:border-box;
+ /*  position: absolute;  */
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  /* float: right; */
+  padding-bottom: 13px;
+  padding: 13px;
+    background: #f1f1f1;
+    
+}
+
+.chart-container .info-container .display-text{
+  text-align: center;
+}
+
+.input-container{
+  width: 100%;
+  padding: 10px;
+  float: right;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 5px;
+}
+.input-container::after{
+  clear: both;
+  display: block;
+  content: "";
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 20%;
+}
+input[type=submit] {
+    background-color: deepskyblue;
+    color: #fff;
+}
+.styleinput:focus{
+    outline: 0;
+}
+
+/* .chart {
+  border: solid 1px black;
+} */
+.grid line {
+  stroke: "#cccccc";
+  stroke-dasharray: 1 2;
+  stroke-width: 1;
+}
+
+.grid {
+  stroke: black;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+svg.chart .labels {
+  font-family: Arial;
+  font-size: 14px;
+  kerning: 1;
+}
+svg.chart .labels.x-labels {
+  text-anchor: middle;
+}
+.labels {
+  font-size: 13px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  fill: black;
+}
+
+.data {
+  fill: red;
+  stroke-width: 1; 
+}
+
+
+/*
+
+.graph .grid {
+  stroke: #ccc;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+    
+.graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+  text-anchor: end;
+}
+  
+  
+.graph {
+  height: 500px;
+  width: 800px;
+}
+body {
+  font:400 16px roboto, helvetica, arial;
+  background:#f2f2f2;
+  color:#4183d7;
+}
+
+h1 {
+  margin-bottom:0;
+}
+
+#wrapper {
+  width:650px;
+  padding:1em;
+  margin:2em auto;
+  background:white;
+  box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+.explanation {
+  margin-bottom:3em;
+  display: inline-block;
+}
+
+.chart {
+  width:600px;
+  padding-left:50px;
+  height:300px;
+  margin:auto;
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+  border-bottom:1px solid lighten(#4183d7,35%);
+}
+ .chartMeasurements {
+position: absolute;
+top: 0;
+left: 0px;
+width: 100%;
+height: 100%;
+display:flex;
+justify-content: space-between;
+flex-direction:column;
+text-align:left;
+z-index:1;
+
+}
+.chartMeasurement {
+width:100%;
+flex-grow:1;
+
+border-top:1px solid lighten(#4183d7,35%);
+
+
+
+} 
+svg {
+position: relative;
+z-index:2;
+}
+  */

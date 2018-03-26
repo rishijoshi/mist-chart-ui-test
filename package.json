@@ -1,0 +1,24 @@
+{
+  "name": "mist-airline-chart-test",
+  "version": "1.0.0",
+  "description": "ui test for mist systems",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "entry point":"app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishijoshi/mist-airline-chart-test.git"
+  },
+  "author": "Hrishikesh Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishijoshi/mist-airline-chart-test/issues"
+  },
+  "homepage": "https://github.com/rishijoshi/mist-airline-chart-test#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
